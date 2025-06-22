@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=../config-schema.yaml
+$schema: ../config-schema.yaml
+
+packages:
+  
+  github.com/lucaspopp0/schema-versioner/example:
+    recursive: true
+    search_embedded: true
