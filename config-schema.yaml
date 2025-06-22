@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
+$schema: https://json-schema.org/draft/2020-12/schema
+type: object
+additionalProperties: false
+
+definitions: 
+  PackageOptions:
+    type: object
+    additionalProperties: false
+    properties:
+      recursive:
+        type: boolean
+        description: Recurse all subpackages?
+      all_versioned:
+        type: boolean
+        description: |
+          Check all types in the package, and manage versions for any
+          types which implement the Version
